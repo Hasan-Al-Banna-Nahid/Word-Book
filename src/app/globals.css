@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@font-face {
+  font-family: "Ashar-Alo";
+  src: url("../../public/fonts/Ashar-Alo/FL_Ashar_Alo_Unicode.ttf")
+    format("truetype");
+}
+
+.heading-AsharAlo {
+  font-family: "Ashar-Alo", sans-serif;
+}
+
+
+/* ------------ Common Bangla Fonts For Text--------------- */
+
+@font-face {
+  font-family: "Balooda2";
+  src: url("../../public/fonts/Balooda2/BalooDa2-Medium.ttf") format("truetype");
+}
+
+.text-common {
+  font-family: "Balooda2", sans-serif;
+}
